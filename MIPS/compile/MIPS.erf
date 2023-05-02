@@ -1,0 +1,60 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 1
+UPDATEPROGRESS 3
+UPDATEPROGRESS 5
+UPDATEPROGRESS 7
+UPDATEPROGRESS 8
+UPDATEPROGRESS 10
+WARNING VCP2516 "Undefined module: data_memory from library: MIPS was used. Port connection rules will not be checked at such instantiations." "../compile/CPU.v" 90  3
+WARNING VCP2516 "Undefined module: PC from library: MIPS was used. Port connection rules will not be checked at such instantiations." "../compile/CPU.v" 145  3
+UPDATEPROGRESS 12
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 17
+UPDATEPROGRESS 19
+UPDATEPROGRESS 21
+UPDATEPROGRESS 22
+UPDATEPROGRESS 24
+UPDATEPROGRESS 26
+UPDATEPROGRESS 28
+UPDATEPROGRESS 29
+UPDATEPROGRESS 31
+UPDATEPROGRESS 33
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 40
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 56
+UPDATEPROGRESS 68
+WARNING VCP5200 "Only a sized object can be concatenated - assuming 32 bit: 0." "C:/Users/3arbeeed/Documents/Architecture/MIPS/src/signExtend.v" 11  23
+UPDATEPROGRESS 80
+MESSAGE "Running Assertions Compiler."
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 86
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+MESSAGE "Unit top modules: CPU_tb data_memory mux3x1 PC registerFile_tb."
+MESSAGE "$root top modules: CPU_tb data_memory mux3x1 PC registerFile_tb."
+UPDATEPROGRESS 100
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 3 Warnings  Analysis time: 0[s]."
+WARNING ALOG: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "done"

@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=MIPS
+[Library]
+MIPS=.\MIPS\MIPS.lib
+[$LibMap$]
+MIPS=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\3arbeeed\Documents\Architecture\MIPS\src
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[Files]
+/1x8uExt.v=-1
+/8bitRegister.v=-1
+/Add.v=-1
+/Add3.v=-1
+/ALU.v=-1
+/ControlUnit.v=-1
+/CPU.bde=-1
+/CPU_testbench.v=-1
+/DataMem.v=-1
+/InstructionMemory.v=-1
+/MUX21.v=-1
+/MUX21_3bit.v=-1
+/MUX31.v=-1
+/MUX41.v=-1
+/MUX41_3bit.v=-1
+/PC.v=-1
+/program1.asdb=-1
+/program1.awc=-1
+/program2.asdb=-1
+/program2.awc=-1
+/RegisterFileCode.v=-1
+/RG_TestBench.v=-1
+/shift4x_left.v=-1
+/signExtend.v=-1
+/wave.asdb=-1
+[Files.Data]
+.\src\1x8uExt.v=Verilog Source Code
+.\src\8bitRegister.v=Verilog Source Code
+.\src\Add.v=Verilog Source Code
+.\src\Add3.v=Verilog Source Code
+.\src\ALU.v=Verilog Source Code
+.\src\ControlUnit.v=Verilog Source Code
+.\src\CPU.bde=Block Diagram
+.\src\CPU_testbench.v=Verilog Source Code
+.\src\DataMem.v=Verilog Source Code
+.\src\InstructionMemory.v=Verilog Source Code
+.\src\MUX21.v=Verilog Source Code
+.\src\MUX21_3bit.v=Verilog Source Code
+.\src\MUX31.v=Verilog Source Code
+.\src\MUX41.v=Verilog Source Code
+.\src\MUX41_3bit.v=Verilog Source Code
+.\src\PC.v=Verilog Source Code
+.\src\program1.asdb=Accelerated Waveform File
+.\src\program1.awc=Accelerated Waveform Configuration
+.\src\program2.asdb=Accelerated Waveform File
+.\src\program2.awc=Accelerated Waveform Configuration
+.\src\RegisterFileCode.v=Verilog Source Code
+.\src\RG_TestBench.v=Verilog Source Code
+.\src\shift4x_left.v=Verilog Source Code
+.\src\signExtend.v=Verilog Source Code
+.\src\wave.asdb=Accelerated Waveform File
+[file_out:/CPU.bde]
+/..\compile\CPU.v=-1

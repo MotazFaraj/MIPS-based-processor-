@@ -1,0 +1,67 @@
+alog -O2 -sve -msg 5 -sv2k12 -work MIPS $dsn/src/1x8uExt.v $dsn/src/8bitRegister.v $dsn/src/Add.v $dsn/src/Add3.v $dsn/src/ALU.v $dsn/src/ControlUnit.v $dsn/src/CPU.bde $dsn/src/CPU_testbench.v $dsn/src/DataMem.v $dsn/src/InstructionMemory.v $dsn/src/MUX21.v $dsn/src/MUX21_3bit.v $dsn/src/MUX31.v $dsn/src/MUX41.v $dsn/src/MUX41_3bit.v $dsn/src/PC.v $dsn/src/RegisterFileCode.v $dsn/src/RG_TestBench.v $dsn/src/shift4x_left.v $dsn/src/signExtend.v
+# DRC: Checking file "C:/Users/3arbeeed/Documents/Architecture/MIPS/src/CPU.bde".
+# DRC: Warning: CPU.bde - 0 error(s), 18 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\3arbeeed\Documents\Architecture\MIPS\compile\CPU.v from C:\Users\3arbeeed\Documents\Architecture\MIPS\src\CPU.bde ...
+# Generation successful
+# Pass 1. Scanning modules hierarchy.
+# Warning: VCP2516 CPU.bde(CPU.v) : (90, 3): Undefined module: data_memory from library: MIPS was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2516 CPU.bde(CPU.v) : (145, 3): Undefined module: PC from library: MIPS was used. Port connection rules will not be checked at such instantiations.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP5200 signExtend.v : (11, 23): Only a sized object can be concatenated - assuming 32 bit: 0.
+# Running Assertions Compiler.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: CPU_tb data_memory mux3x1 PC registerFile_tb.
+# $root top modules: CPU_tb data_memory mux3x1 PC registerFile_tb.
+# Compile success 0 Errors 3 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 Module 'adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'adder_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'ALU' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'ControlUnit' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module '_1x8uExt' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'reg_8bit' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+CPU CPU
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 Module 'adder' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'adder_3' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'ALU' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'ControlUnit' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module '_1x8uExt' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'reg_8bit' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 0 primitives and 24 (100.00%) other processes in SLP
+# SLP: 116 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4701 kB (elbread=427 elab2=4140 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\3arbeeed\Documents\Architecture\MIPS\src\wave.asdb
+#  9:59 PM, Friday, February 10, 2023
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.

@@ -1,0 +1,19 @@
+[Files List]
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/8bitRegister.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/1x8uExt.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/MUX21_3bit.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/shift4x_left.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/MUX41.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/InstructionMemory.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/MUX21.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/ControlUnit.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/ALU.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/PC.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/RegisterFileCode.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/Add3.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/signExtend.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/MUX41_3bit.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/DataMem.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/src/Add.v=S
+C:\Users\3arbeeed\Documents\Architecture\MIPS/compile/CPU.v=S

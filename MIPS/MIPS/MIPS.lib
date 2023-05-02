@@ -1,0 +1,181 @@
+timestamp=1676059173478
+
+[~A]
+C:/Users/3arbeeed/Documents/Architecture/MIPS/src/1x8uExt.v_8bitRegister.v_Add.v_Add3.v_ALU.v_ControlUnit.v_CPU.v_CPU_testbench.v_DataMem.v_InstructionMemory.v_MUX21.v_MUX21_3bit.v_MUX31.v_MUX41.v_MUX41_3bit.v_PC.v_RegisterFileCode.v_RG_TestBench.v_shift4x_left.v_signExtend.v=0*4962*10111
+LastVerilogToplevel=registerFile_tb
+ModifyID=3
+Version=74
+
+[~MFT]
+0=23|0MIPS.mgf|10111|0
+1=21|1MIPS.mgf|29627|0
+3=42|3MIPS.mgf|24701|0
+
+[$root]
+A/$root=22|||1*0
+BinW64/$root=3*0
+SLP=3*115
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216d0bcdb0eba2c23ec0a2557f0c6fb0f0f
+
+[ALU]
+A/ALU=22|../src/ALU.v|1|1*4365
+BinW64/ALU=3*2608
+R=../src/ALU.v|1
+SLP=3*4754
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b3eb40c25b2a3c0379c7730185183eecd00b00cb1b1d09cc338e2fff64404ed2
+
+[CPU]
+A/CPU=24|../src/CPU.bde|10000|1*9006
+BinW64/CPU=3*10482
+R=../src/CPU.bde|1
+SLP=3*10595
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8e7b05e79f53f2dfbaf3f223a151a5e17de75aa766117143b818fcf4375d4bc8
+
+[CPU_tb]
+A/CPU_tb=22|../src/CPU_testbench.v|1|1*24639
+BinW64/CPU_tb=3*18523
+R=../src/CPU_testbench.v|1
+SLP=3*18991
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|efd6246e11c114d9d88432419f14dd89fde849c2f27be33954d7440e1fa87701
+
+[ControlUnit]
+A/ControlUnit=22|../src/ControlUnit.v|1|1*6543
+BinW64/ControlUnit=3*5246
+R=../src/ControlUnit.v|1
+SLP=3*7784
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|0dc9d995053bfcd284d27d4b39f3dbe96e13ddcddf1236a683baa337e5d9976bc61ba9e894beee1310c4d71ca04a8d3c
+
+[InsMem]
+A/InsMem=22|../src/InstructionMemory.v|3|1*20301
+BinW64/InsMem=3*15363
+R=../src/InstructionMemory.v|3
+SLP=3*15960
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|9ed19251b76a29a5568671bff999976589f37939b7fd69caea547ebeb47f40fa
+
+[PC]
+A/PC=22|../src/PC.v|1|1*28546
+BinW64/PC=3*21273
+R=../src/PC.v|1
+SLP=3*21775
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|8180830d307fd32bf17aee65de57f6925a1f384e99c63440b5fa18f651a2c33a
+
+[_1x8uExt]
+A/_1x8uExt=22|../src/1x8uExt.v|1|1*422
+BinW64/_1x8uExt=3*183
+R=../src/1x8uExt.v|1
+SLP=3*513
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|45afbaefa836fa4f0f2fe5ea5923ea74f4ea8e1540bdd0cea75e4c4ccd2dc09542d32dc62ed7bf0691179178d528edf7
+
+[adder]
+A/adder=22|../src/Add.v|1|1*2418
+BinW64/adder=3*1354
+R=../src/Add.v|1
+SLP=3*1787
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|aa2639a8a5a70ec6691b492f142f0ca2efbcdd3606e8a1cdb8cf3bc5a88e44d0
+
+[adder_3]
+A/adder_3=22|../src/Add3.v|1|1*3425
+BinW64/adder_3=3*1976
+R=../src/Add3.v|1
+SLP=3*2412
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|173b05f357a0226b6cd38d58fce1904226527262ddaa47cb266f3a3c4d9b973ac9bc0b483ce45b331559fdd13a29ef57
+
+[data_memory]
+A/data_memory=22|../src/DataMem.v|1|1*25389
+BinW64/data_memory=3*19176
+R=../src/DataMem.v|1
+SLP=3*19966
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|726284356dccaf29bb796a741e5c78b5503161ccddc43b92871758a951bfdd2c8a193aa4f39907567c226333b8666ce4
+
+[mux2x1]
+A/mux2x1=22|../src/MUX21.v|1|1*19185
+BinW64/mux2x1=3*14693
+R=../src/MUX21.v|1
+SLP=3*15123
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|269c48f88c4a6630b0dac62e83881d974e828c278e95fd52c5fce3a925eb8823
+
+[mux2x1_3bit]
+A/mux2x1_3bit=22|../src/MUX21_3bit.v|1|1*23500
+BinW64/mux2x1_3bit=3*17838
+R=../src/MUX21_3bit.v|1
+SLP=3*18273
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|769623f503b9a5f861e449ea66cf96adc95921283015119bda231bb68ddee3eed5ac5281901c82d70652bbd90ed8fd5c
+
+[mux3x1]
+A/mux3x1=22|../src/MUX31.v|1|1*27280
+BinW64/mux3x1=3*20466
+R=../src/MUX31.v|1
+SLP=3*20959
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|16c45cf6b9e6618dfa516cb13bd1def498bf14cd63f944deb5e3d3e61ddd64a0
+
+[mux4x1]
+A/mux4x1=22|../src/MUX41.v|1|1*21278
+BinW64/mux4x1=3*16322
+R=../src/MUX41.v|1
+SLP=3*16868
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e6b717cacdef1e1cfddf87fa026ec101ed7893ee556bb694877dd44dddcc7ed6
+
+[mux4x1_3bit]
+A/mux4x1_3bit=22|../src/MUX41_3bit.v|1|1*14804
+BinW64/mux4x1_3bit=3*11032
+R=../src/MUX41_3bit.v|1
+SLP=3*11582
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6f63fc9a955328daf0d0162dd7e064ad15e903d00f35edb5f40fd4ecd99a0fa91710277c2ffa8f611591652f23a9ba32
+
+[reg_8bit]
+A/reg_8bit=22|../src/8bitRegister.v|1|1*1244
+BinW64/reg_8bit=3*684
+R=../src/8bitRegister.v|1
+SLP=3*1114
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|b4349ddf9d204aa46b0f16c18920c4c787dff3ca29dc89f6fb5ef56f2a729a5017fcb863c203ac587c1e37628d0c027f
+
+[registerFile]
+A/registerFile=22|../src/RegisterFileCode.v|1|1*17220
+BinW64/registerFile=3*13125
+R=../src/RegisterFileCode.v|1
+SLP=3*14122
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e5ad9fa76aa1626dc6021e30dae756772626a7f3e68474537778618e50ae61f007de937793ecff70a0138acdf6dd2f94
+
+[registerFile_tb]
+A/registerFile_tb=22|../src/RG_TestBench.v|1|1*29627
+BinW64/registerFile_tb=3*21997
+R=../src/RG_TestBench.v|1
+SLP=3*24701
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|9b13656532b58a7b965f2f7ca71638f2d1ac41b35d2df9199e7612cc351046953b9e01d2541725803c51616a083748aa
+
+[shift_left_4]
+A/shift_left_4=22|../src/shift4x_left.v|1|1*22623
+BinW64/shift_left_4=3*17232
+R=../src/shift4x_left.v|1
+SLP=3*17658
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|d82d30a4a72aa5cc23254c44f42c15e104238d4cc34877db5cfc6d1b8c100046a232def354458651165f21185c602323
+
+[sign_ext]
+A/sign_ext=22|../src/signExtend.v|1|1*16164
+BinW64/sign_ext=3*11970
+R=../src/signExtend.v|1
+SLP=3*12822
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|44534dae2e14162a54b81c019aab67a36690495b6afe9e9f4ff25615aba759db2b893a05b23be779a7416d7162a9c55f
+
+[~U]
+$root=12|0*0|
+ALU=12|0*1116|
+CPU=12|0*1739||0x10
+CPU_tb=12|0*3839||0x10
+ControlUnit=12|0*1408|
+InsMem=12|0*2972|
+PC=12|0*4586||0x10
+_1x8uExt=12|0*310|
+adder=12|0*718|
+adder_3=12|0*918|
+data_memory=12|0*4107||0x10
+mux2x1=12|0*2757|
+mux2x1_3bit=12|0*3615|
+mux3x1=12|0*4363||0x10
+mux4x1=12|0*3186|
+mux4x1_3bit=12|0*2056|
+reg_8bit=12|0*505|
+registerFile=12|0*2505|
+registerFile_tb=12|0*4783||0x10
+shift_left_4=12|0*3415|
+sign_ext=12|0*2294|

@@ -1,0 +1,39 @@
+Active-HDL 13.0.376.8320 2023-02-10 21:59:54
+
+Elaboration top modules:
+Verilog Module                CPU
+
+
+-------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+CPU                     | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+adder                   | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+data_memory             | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+mux4x1_3bit             | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+sign_ext                | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+adder_3                 | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+registerFile            | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+PC                      | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+ALU                     | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+ControlUnit             | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+mux2x1                  | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+InsMem                  | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+mux4x1                  | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+shift_left_4            | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+mux2x1_3bit             | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+_1x8uExt                | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+reg_8bit                | mips    |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+mips                    | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+CPU CPU
+
+
+The performance of simulation is reduced. Version Student Edition
